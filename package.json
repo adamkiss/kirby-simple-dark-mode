@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "sass --no-source-map --watch --color _simple-dark-mode.sass index.css",
+    "build": "sass --no-source-map --quiet _simple-dark-mode.sass index.css"
+  },
+  "dependencies": {
+    "sass": "^1.26.10"
+  }
+}

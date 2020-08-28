@@ -1,0 +1,16 @@
+{
+  "name": "adamkiss/kirby-simple-dark-mode",
+  "description": "Simple Dark Mode for Kirby Panel",
+  "version": "0.1.0",
+  "type": "kirby-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Adam Kiss",
+      "email": "iam@adamkiss.com"
+    }
+  ],
+  "require": {
+    "getkirby/composer-installer": "^1.1"
+  }
+}

@@ -1,0 +1,27 @@
+@media (prefers-color-scheme: dark) {
+  html.simple-dark-mode {
+    /* so dirty */
+    filter: invert(95%) hue-rotate(180deg) !important;
+    /* All colors from now on are inverted by the filter */
+  }
+  html.simple-dark-mode img {
+    filter: hue-rotate(180deg) !important;
+    opacity: 0.6 !important;
+  }
+  html.simple-dark-mode .k-topbar, html.simple-dark-mode .k-topbar-signals, html.simple-dark-mode .k-topbar-signals::before {
+    background: #777777 !important;
+  }
+  html.simple-dark-mode .k-file-preview-details {
+    background: #e1e0e3 !important;
+  }
+  html.simple-dark-mode .k-dialog {
+    background: rgba(250, 250, 250, 0.7) !important;
+  }
+  html.simple-dark-mode .k-dialog-box, html.simple-dark-mode .k-dropdown-content {
+    box-shadow: 0 2px 10px rgba(250, 250, 250, 0.8) !important;
+  }
+  html.simple-dark-mode .k-file-preview-details p {
+    /* black so it inverts */
+    color: black !important;
+  }
+}
