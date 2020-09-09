@@ -1,3 +1,12 @@
+@mixin pseudo-block()
+	display: block
+	position: absolute
+	left: 0
+	top: 0
+	right: 0
+	bottom: 0
+	content: " "
+
 @media(prefers-color-scheme: dark)
 	html.simple-dark-mode
 		/* so dirty */
@@ -19,3 +28,7 @@
 		.k-file-preview-details p
 			/* black so it inverts */
 			color: black !important
+		.k-icon[data-back="pattern"]
+			&:before
+				+pseudo-block()
+				background: rgba(250, 250, 250, 0.7)

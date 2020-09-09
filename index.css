@@ -24,4 +24,14 @@
     /* black so it inverts */
     color: black !important;
   }
+  html.simple-dark-mode .k-icon[data-back=pattern]:before {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    content: " ";
+    background: rgba(250, 250, 250, 0.7);
+  }
 }
