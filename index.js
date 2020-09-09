@@ -1,4 +1,5 @@
-/*
-	Make it actually work.
- */
-document.querySelector('html').classList.add('simple-dark-mode')
+panel.plugin('adamkiss/simple-dark-mode', {
+	created(Vue) {
+		document.documentElement.classList.add('simple-dark-mode');
+	}
+});
