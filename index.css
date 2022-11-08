@@ -5,11 +5,14 @@
     /* All colors from now on are inverted by the filter */
   }
   html.simple-dark-mode img {
-    filter: hue-rotate(180deg) !important;
-    opacity: 0.6 !important;
+    opacity: 0.4 !important;
+  }
+  html.simple-dark-mode .k-icon-emoji {
+    /* invert emoji icons back */
+    filter: invert(95%) hue-rotate(180deg) !important;
   }
   html.simple-dark-mode .k-topbar, html.simple-dark-mode .k-topbar-signals, html.simple-dark-mode .k-topbar-signals::before {
-    background: #777777 !important;
+    background: #888 !important;
   }
   html.simple-dark-mode .k-file-preview-details {
     background: #e1e0e3 !important;
